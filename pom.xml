@@ -3,6 +3,22 @@
   <groupId>VMWARE</groupId>
   <artifactId>SkillraryEcommerceProject</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  <build>
+	  <plugins>
+		  <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-surefire-plugin</artifactId>
+        <version>3.1.2</version>
+        <configuration>
+          <suiteXmlFiles>
+            <suiteXmlFile>Batch_Execution.xml</suiteXmlFile>
+          </suiteXmlFiles>
+        </configuration>
+      </plugin>
+		  </plugins>
+	  </build>
+ 
+  
   
   <dependencies>
   
@@ -52,44 +68,13 @@
     <version>7.4.0</version>
     <scope>test</scope>
 </dependency>
-	<profiles>
-		<profile>
+	
 
-			<id>smoke</id>
-
-			<build>
+		
 
 
-				<pluginManagement>
-					<plugins>
-
-						<plugin>
-							<groupId>org.apache.maven.plugins</groupId>
-							<artifactId>maven-surefire-plugin</artifactId>
-							<version>3.0.0-M7</version>
-							<configuration>
-								<suiteXmlFiles>
-									<suiteXmlFile>Batch_In_Maventestng.xml</suiteXmlFile>
-								</suiteXmlFiles>
-							</configuration>
-						</plugin>
-
-						<plugin>
-							<groupId>org.apache.maven.plugins</groupId>
-							<artifactId>maven-compiler-plugin</artifactId>
-							<version>3.10.1</version>
-							<configuration>
-								<verbose>true</verbose>
-								<fork>true</fork>
-								<!-- put your configurations here -->
-							</configuration>
-						</plugin>
-
-					</plugins>
-				</pluginManagement>
-			</build>
-		</profile>
-	</profiles>
+				
+	
   
   </dependencies>
 </project>
