@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-03T10:58:45 IST" name="Default suite" finished-at="2023-08-03T11:00:15 IST" duration-ms="90498">
+  <suite started-at="2023-08-05T20:27:17 IST" name="Default suite" finished-at="2023-08-05T20:28:57 IST" duration-ms="100250">
     <groups>
     </groups>
-    <test started-at="2023-08-03T10:58:45 IST" name="Default test" finished-at="2023-08-03T11:00:15 IST" duration-ms="90498">
+    <test started-at="2023-08-05T20:27:17 IST" name="Default test" finished-at="2023-08-05T20:28:57 IST" duration-ms="100250">
       <class name="Scripts.TestCase2">
-        <test-method is-config="true" signature="openApp()[pri:0, instance:Scripts.TestCase2@6aeb35e6]" started-at="2023-08-03T10:58:45 IST" name="openApp" finished-at="2023-08-03T11:00:13 IST" duration-ms="87614" status="PASS">
+        <test-method is-config="true" signature="openApp()[pri:0, instance:Scripts.TestCase2@6aeb35e6]" started-at="2023-08-05T20:27:17 IST" name="openApp" finished-at="2023-08-05T20:28:45 IST" duration-ms="88783" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApp -->
-        <test-method signature="tc2()[pri:0, instance:Scripts.TestCase2@6aeb35e6]" started-at="2023-08-03T11:00:13 IST" name="tc2" finished-at="2023-08-03T11:00:15 IST" duration-ms="2681" status="PASS">
+        <test-method signature="tc2()[pri:0, instance:Scripts.TestCase2@6aeb35e6]" started-at="2023-08-05T20:28:45 IST" name="tc2" finished-at="2023-08-05T20:28:56 IST" duration-ms="10998" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc2 -->
-        <test-method is-config="true" signature="closeApp(org.testng.ITestResult)[pri:0, instance:Scripts.TestCase2@6aeb35e6]" started-at="2023-08-03T11:00:15 IST" name="closeApp" finished-at="2023-08-03T11:00:15 IST" duration-ms="167" status="PASS">
+        <test-method is-config="true" signature="closeApp(org.testng.ITestResult)[pri:0, instance:Scripts.TestCase2@6aeb35e6]" started-at="2023-08-05T20:28:56 IST" name="closeApp" finished-at="2023-08-05T20:28:57 IST" duration-ms="423" status="PASS">
           <params>
             <param index="0">
               <value>
