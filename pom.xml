@@ -3,6 +3,17 @@
   <groupId>VMWARE</groupId>
   <artifactId>SkillraryEcommerceProject</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  
+  
+  
+  <properties>
+	  
+	  <maven.compiler.source>20</maven.compiler.source>
+    <maven.compiler.target>20</maven.compiler.target>
+	  
+	  </properties>
+  
+  
   <build>
 	  <plugins>
 		  <plugin>
@@ -11,21 +22,22 @@
         <version>3.1.2</version>
         <configuration>
           <suiteXmlFiles>
-            <suiteXmlFile>Batch_Execution.xml</suiteXmlFile>
+            <suiteXmlFile>testng.xml</suiteXmlFile>
           </suiteXmlFiles>
         </configuration>
       </plugin>
       
-      <plugin>
-							<groupId>org.apache.maven.plugins</groupId>
-							<artifactId>maven-compiler-plugin</artifactId>
-							<version>3.10.1</version>
-							<configuration>
-								<verbose>true</verbose>
-								<fork>true</fork>
-								<!-- put your configurations here -->
-							</configuration>
-						</plugin>
+       <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.1</version>
+        <configuration>
+          <verbose>true</verbose>
+          <fork>true</fork>
+          <executable><!-- path-to-javac --></executable>
+          <compilerVersion>1.7</compilerVersion>
+        </configuration>
+      </plugin>
       
 		  </plugins>
 	  </build>
@@ -77,9 +89,12 @@
 <dependency>
     <groupId>org.testng</groupId>
     <artifactId>testng</artifactId>
-    <version>7.4.0</version>
-    <scope>test</scope>
+    <version>7.5.1</version>
+    <scope>compile</scope>
 </dependency>
+
+
+
 	
 
 		
